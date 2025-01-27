@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        // Language and Environment
+        "target": "ESNext",
+        "lib": ["ESNext", "DOM"],
+
+        // Module
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+
+        // Emit (Not really needed because tsup will handle emitting)
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+
+        // Type Checking
+        "strict": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedParameters": true,
+        "skipLibCheck": true
+    }
+}

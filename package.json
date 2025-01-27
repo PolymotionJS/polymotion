@@ -1,0 +1,27 @@
+{
+  "name": "polymotion-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "release": "bun run build && pnpm recursive publish"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "pnpm": "^9.15.4",
+    "prettier": "^3.4.2",
+    "turbo": "^2.3.4",
+    "typescript": "5.7.3"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "puppeteer": "^24.1.1",
+    "tsup": "^8.3.6",
+    "vite": "^6.0.11"
+  }
+}
