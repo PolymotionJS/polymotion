@@ -49,7 +49,6 @@ export async function render(options: RenderOptions) {
     });
 
     let compositionOptions: {
-        id: string;
         fps: number;
         width: number;
         height: number;
@@ -57,7 +56,6 @@ export async function render(options: RenderOptions) {
     } | undefined;
 
     clientEmitter.once("ready", async (data: {
-        id: string;
         fps: number;
         width: number;
         height: number;
