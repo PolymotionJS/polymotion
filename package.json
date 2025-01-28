@@ -6,7 +6,7 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release": "bun run build && pnpm recursive publish"
+    "release": "bun run build && bun --filter '*' publish"
   },
   "devDependencies": {
     "@types/node": "^22.10.10",
