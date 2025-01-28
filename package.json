@@ -6,11 +6,11 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release": "bun run build && bun --filter '*' publish"
+    "release": "bun run build && changeset version && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.12",
     "@types/node": "^22.10.10",
-    "pnpm": "^9.15.4",
     "prettier": "^3.4.2",
     "turbo": "^2.3.4",
     "typescript": "5.7.3"
