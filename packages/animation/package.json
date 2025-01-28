@@ -1,5 +1,5 @@
 {
-    "name": "polymotion",
+    "name": "@polymotion/animation",
     "version": "0.2.0",
     "scripts": {
         "build": "tsup"
