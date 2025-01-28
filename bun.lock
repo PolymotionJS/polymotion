@@ -16,13 +16,17 @@
         "typescript": "5.7.3",
       },
     },
+    "packages/animation": {
+      "name": "@polymotion/animation",
+      "version": "0.2.0",
+    },
     "packages/polymotion": {
       "name": "polymotion",
-      "version": "0.1.0",
+      "version": "0.2.0",
     },
     "packages/svelte": {
       "name": "@polymotion/svelte",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "devDependencies": {
         "@sveltejs/adapter-auto": "^4.0.0",
         "@sveltejs/kit": "^2.16.0",
@@ -42,7 +46,7 @@
     },
     "packages/vite": {
       "name": "@polymotion/vite",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "dependencies": {
         "polymotion": "workspace:*",
       },
@@ -166,6 +170,8 @@
     "@pkgjs/parseargs": ["@pkgjs/parseargs@0.11.0", "", {}, "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="],
 
     "@polka/url": ["@polka/url@1.0.0-next.28", "", {}, "sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw=="],
+
+    "@polymotion/animation": ["@polymotion/animation@workspace:packages/animation"],
 
     "@polymotion/svelte": ["@polymotion/svelte@workspace:packages/svelte"],
 
